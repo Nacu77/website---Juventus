@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Juventus - Bilete</title>
+
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Juventus, Torino, Italia, fotbal, bilete, stoc" />
+    <meta name="description" content="Vanzare de bilete la meciurile echipei de fotbal Juventus Torino" />
+    <meta name="author" content="Florin Nacu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/resurse/favicon/juvefavicon.ico" />
+    <link rel="stylesheet" href="/resurse/css/generalStyle.css" type="text/css" />
+    <link rel="stylesheet" href="/resurse/css/meniuStyle.css" type="text/css" />
+    <link rel="stylesheet" href="/resurse/css/bileteStyle.css" type="text/css" />
+
+    <script src="/resurse/script/const.js" defer></script>
+    <script src="/resurse/script/creareInputuri.js"></script>
+    <script src="/resurse/script/eventHandlers.js"></script>
+    <script src="/resurse/script/main.js"></script>
+</head>
+
+<body>
+    <%- include("../fragmente/header") %>
+
+    <main>
+        <div style="height: 50px;">
+            <img src="/resurse/imagini/minge.png" id="minge" width="50" height="50">
+        </div>
+
+        <% if(locals.user){ %>
+            <section>
+                <p>Salut, <%= user.nume%>!</p>
+                <p>Acum poti cumpara bilete.</p>
+                <a href="logout.ejs">Logout</a>
+            </section>
+            <section>
+                <h2>Mesaj random</h2>
+                <p style="text-align: center; font-size: larger;">"Sa ai o zi"</p>
+                <button id="ascunde">Ascunde</button>
+            </section>
+            <section>
+                <h2>Meciuri</h2>
+                <% for(i=0; i<bilete.length; i++){ %>
+                    <%-include("../fragmente/template_bilet", {bilet:bilete[i]})%>
+                <%}%>
+            </section>
+        <% } else { %>
+            <section>
+                <p>Nu sunteti logat...</p>
+                <a href="login">Login</a>
+            </section>
+        <% } %>
+    </main>
+
+    <%- include("../fragmente/footer") %>
+</body>
+</html>

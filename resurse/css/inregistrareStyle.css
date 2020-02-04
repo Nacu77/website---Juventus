@@ -1,0 +1,42 @@
+body {
+  background: url("../imagini/background_image.jpg") no-repeat fixed;
+  background-size: cover;
+  margin: 0;
+  padding-top: 10em;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  margin: 0;
+  border:0.125em solid whitesmoke;
+}
+
+div {
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 1.25em 1.25em;
+  border: 0.025em solid black;
+  border-left: none;
+  border-right: none;
+  width: auto;
+}
+
+a#acasa {
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0.25em 0.125em;
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: black;
+  border: 0.125em solid black;
+}
+
+a#acasa:hover {
+  background-color: black;
+  color: whitesmoke;
+}

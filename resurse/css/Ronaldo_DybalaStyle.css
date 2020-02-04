@@ -1,0 +1,23 @@
+﻿video{
+    width:50%;
+    height:auto;
+    margin:2em;
+    border:0.125em solid lightgray;
+}
+
+section {
+    text-align:center;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1000px) {
+    video {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    video {
+        width: 90%;
+        margin:0.2em 0em;
+    }
+}

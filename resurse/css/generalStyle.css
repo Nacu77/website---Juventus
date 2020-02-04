@@ -1,0 +1,132 @@
+﻿body {
+    background: url("../imagini/background_image.jpg") no-repeat fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+header {
+    background-color: whitesmoke;
+    border-bottom: 0.125em solid;
+    border-top: 0.125em solid;
+}
+
+main {
+    margin: 3.125em;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    border-bottom: 0.125em solid;
+    border-top: 0.125em solid;
+    text-align: center;
+    overflow: hidden;
+}
+
+a.sus {
+    float: right;
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    margin: 0.3125em;
+    padding:0.25em;
+}
+
+footer address{
+    font-size:0.8em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0.2em 0.5em;
+}
+
+aside {
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+}
+
+img.logo_stanga {
+    float: left;
+    width: 0.6em;
+    height: 0.8em;
+    margin: 0.2em 0em;
+}
+
+img.logo_dreapta {
+    float: right;
+    width: 0.6em;
+    height: 0.8em;
+    margin: 0.2em 0em;
+}
+
+section {
+    background-color: whitesmoke;
+    border: 0.125em solid;
+    margin: 1.25em 0em;
+    overflow: hidden;
+}
+
+section h2, article h2 {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1em;
+    margin: 0;
+    border:0.125em solid whitesmoke;
+}
+
+p {
+    padding: 0em 0.625em;
+}
+
+article {
+    border: none;
+    background-color: white;
+    border: 0.125em solid;
+    margin: 1.25em 0em;
+    overflow:hidden;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1000px){
+    h1 {
+        font-size: 2.5em
+    }
+
+    main{
+        margin: 1.5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1{
+        font-size: 2em;
+    }
+
+    main {
+        margin: 0.125em;
+    }
+
+    body {
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 300px)
+{
+    img.logo_dreapta{
+        display:none;
+    }
+
+    img.logo_stanga{
+        display:none;
+    }
+
+    body {
+        font-size: smaller;
+    }
+}

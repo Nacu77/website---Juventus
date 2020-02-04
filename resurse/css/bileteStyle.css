@@ -1,0 +1,58 @@
+﻿main section {
+    text-align: center;
+}
+
+main section div {
+    text-align:center;
+    margin: 1.25em 1.25em;
+    border: 0.025em solid gray;
+    border-left: none;
+    border-right: none;
+    padding: 1em;
+}
+
+main section div p {
+    font-size: 2em;
+}
+
+button {
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 0.25em 0.125em;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    border: 0.125em solid black;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#numeMesaj {
+    position: absolute;
+    background-color: whitesmoke;
+    border: 0.025em solid black;
+}
+
+main section a {
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 0.25em 0.125em;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    border: 0.125em solid black;
+}
+
+main section a:hover {
+    background-color: black;
+    color: whitesmoke;
+}

@@ -1,0 +1,48 @@
+﻿section section {
+    border: none
+}
+
+section section h3 {
+    text-align: center;
+}
+
+div {
+    background-color: whitesmoke;
+    border: 0.125em solid;
+    margin: 1.25em 12.5em;
+    overflow: hidden;
+}
+
+div h2 {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1em;
+    margin: 0;
+    border: 0.125em solid whitesmoke;
+}
+
+ol {
+    list-style-type:none;
+}
+
+dl {
+    margin: 0.625em;
+}
+
+dt {
+    font-style: italic;
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1000px) {
+    div {
+        margin: 1.25em 5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    div {
+        margin: 1.25em 0em;
+    }
+}

@@ -1,0 +1,88 @@
+{
+  "bilete": [
+    {
+      "adversara": "Udinese",
+      "campionat": "Coppa Italia",
+      "data": "2020-01-15",
+      "ora": { "h": 21, "min": 45 },
+      "pret": 50
+    },
+    {
+      "adversara": "Parma",
+      "campionat": "Serie A",
+      "data": "2020-01-19",
+      "ora": { "h": 21, "min": 45 },
+      "pret": 35
+    },
+    {
+      "adversara": "Fiorentina",
+      "campionat": "Serie A",
+      "data": "2020-02-02",
+      "ora": { "h": 13, "min": 30 },
+      "pret": 40
+    },
+    {
+      "adversara": "Brescia",
+      "campionat": "Serie A",
+      "data": "2020-02-16",
+      "ora": { "h": 16, "min": 0 },
+      "pret": 15
+    },
+    {
+      "adversara": "Inter",
+      "campionat": "Serie A",
+      "data": "2020-03-01",
+      "ora": { "h": 21, "min": 45 },
+      "pret": 100
+    },
+    {
+      "adversara": "Lecce",
+      "campionat": "Serie A",
+      "data": "2020-03-15",
+      "ora": { "h": 16, "min": 0 },
+      "pret": 15
+    },
+    {
+      "adversara": "Lyon",
+      "campionat": "Uefa Champions League",
+      "data": "2020-03-17",
+      "ora": { "h": 22, "min": 0 },
+      "pret": 125
+    },
+    {
+      "adversara": "Torino",
+      "campionat": "Serie A",
+      "data": "2020-04-05",
+      "ora": { "h": 16, "min": 0 },
+      "pret": 70
+    },
+    {
+      "adversara": "Atalanta",
+      "campionat": "Serie A",
+      "data": "2020-04-19",
+      "ora": { "h": 16, "min": 0 },
+      "pret": 60
+    },
+    {
+      "adversara": "Lazio",
+      "campionat": "Serie A",
+      "data": "2020-04-26",
+      "ora": { "h": 16, "min": 0 },
+      "pret": 75
+    },
+    {
+      "adversara": "Sampdoria",
+      "campionat": "Serie A",
+      "data": "2020-05-10",
+      "ora": { "h": 16, "min": 0 },
+      "pret": 35
+    },
+    {
+      "adversara": "AS Roma",
+      "campionat": "Serie A",
+      "data": "2020-05-24",
+      "ora": { "h": 21, "min": 45 },
+      "pret": 85
+    }
+  ]
+}

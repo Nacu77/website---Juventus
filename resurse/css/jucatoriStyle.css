@@ -1,0 +1,48 @@
+﻿img.fata {
+    width:5em;
+    height:5em;
+}
+
+img.jucator {
+    width:50%;
+    height:20em;
+}
+
+caption {
+    font-size: xx-large;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 0.0625em solid;
+    background-color: whitesmoke;
+    margin:auto;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+caption {
+    background-color: black;
+    color: whitesmoke;
+    padding: 1em;
+    border: 0.125em solid whitesmoke;
+    border-bottom: none;
+}
+
+th, td {
+    text-align: center;
+    padding: 0.3125em;
+    border: 0.0625em solid lightgray;
+}
+
+th {
+    background-color: whitesmoke;
+    font-size: larger;
+}
+
+@media screen and (max-width:450px) {
+    .surplus {
+        display: none;
+    }
+}

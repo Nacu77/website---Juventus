@@ -1,0 +1,70 @@
+﻿nav{
+    background-color:black;
+    color:whitesmoke;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li{
+    width:16.66%;
+    float:left;
+}
+
+nav ul li ul li{
+    display:none;
+}
+
+nav ul li ul li{
+    width:100%;
+}
+
+nav ul li a, nav ul li ul li a{
+    display:block;
+    color:whitesmoke;
+    text-align:center;
+    text-decoration:none;
+    padding: 0.875em 1em;
+    transition: background 1s linear;
+}
+
+nav ul li a:hover{
+    background-color:whitesmoke;
+    color:black;
+    transition:background 0s;
+}
+
+nav ul li:hover ul li{
+    display:inline-block;
+}
+
+nav ul li a#activ {
+    background-color: lightgray;
+    color: black;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1000px) {
+    nav ul li {
+        width: 33%;
+    }
+
+    nav ul li ul li {
+        width: 50%;
+        float:left;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li ul li {
+        width: 50%;
+        float: left;
+    }
+}

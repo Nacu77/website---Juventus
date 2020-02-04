@@ -1,0 +1,62 @@
+﻿figure {
+    float: left;
+    text-align: center;
+    margin: 1em 0em;
+}
+
+figure.echipament {
+    width: 33%;
+}
+
+figure.logo {
+    width: 25%;
+}
+
+figure.echipament img {
+    width: 10em;
+    height: 10em;
+}
+
+figure.logo img {
+    width: 9em;
+    height: 10em;
+}
+
+figcaption {
+    text-align: center;
+}
+
+@media screen and (min-width: 550px) and (max-width: 950px)
+{
+    figure.echipament img {
+        width: 6em;
+        height: 6em;
+    }
+
+    figure.logo img {
+        width: 5em;
+        height: 6em;
+    }
+}
+
+@media screen and (max-width: 550px)
+{
+    figure.echipament {
+        width: 100%;
+    }
+
+    figure.logo {
+        width: 50%;
+        margin: auto;
+    }
+
+    figure.echipament img {
+        width: 6em;
+        height: 6em;
+    }
+
+    figure.logo img {
+        width: 5em;
+        height: 6em;
+    }
+}
